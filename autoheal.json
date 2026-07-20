@@ -1,0 +1,26 @@
+{
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.1.1/autoheal_0.1.1_windows_amd64.zip",
+            "bin": [
+                "autoheal.exe"
+            ],
+            "hash": "9bfc082c67ae80ac31f263177c327fc9214d5fec73426e4722f85ab9205c869a"
+        },
+        "arm64": {
+            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.1.1/autoheal_0.1.1_windows_arm64.zip",
+            "bin": [
+                "autoheal.exe"
+            ],
+            "hash": "7789419ff1d1dbc998735c08f4c7f3dfda3f04fbc82c4fb5aeb3effc2a186102"
+        }
+    },
+    "homepage": "https://autoheal.ai",
+    "license": "Proprietary",
+    "description": "Autoheal platform CLI — investigations, chat, and the whole API",
+    "post_install": [
+        "Write-Output 'Adding ah shim'",
+        "Copy-Item \"$dir\\autoheal.exe\" \"$dir\\ah.exe\""
+    ]
+}
