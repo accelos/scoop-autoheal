@@ -1,19 +1,19 @@
 {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.1.1/autoheal_0.1.1_windows_amd64.zip",
+            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.2.0/autoheal_0.2.0_windows_amd64.zip",
             "bin": [
                 "autoheal.exe"
             ],
-            "hash": "9bfc082c67ae80ac31f263177c327fc9214d5fec73426e4722f85ab9205c869a"
+            "hash": "6cb1c4d4c3e15989da96ecf29faa3c90bb99cf83e19240afd69822e8999be17e"
         },
         "arm64": {
-            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.1.1/autoheal_0.1.1_windows_arm64.zip",
+            "url": "https://github.com/accelos/autoheal-cli/releases/download/v0.2.0/autoheal_0.2.0_windows_arm64.zip",
             "bin": [
                 "autoheal.exe"
             ],
-            "hash": "7789419ff1d1dbc998735c08f4c7f3dfda3f04fbc82c4fb5aeb3effc2a186102"
+            "hash": "81de1d863bc945c9bea669e1f597b154e20d79bffc6e7f41b418419fcfd3c759"
         }
     },
     "homepage": "https://autoheal.ai",
